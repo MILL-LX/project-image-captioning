@@ -9,9 +9,7 @@ models = ['Salesforce/blip-image-captioning-base',
           'Salesforce/blip-image-captioning-large', 
           'nlpconnect/vit-gpt2-image-captioning']
 
-captioners = []
-for model in models:
-    captioners.append(pipeline('image-to-text', model=model, max_new_tokens=128))
+captioners = [pipeline('image-to-text', model=model, max_new_tokens=128) for model in models]
 
 with open('captions.txt', 'w') as captions_file:
 
@@ -20,11 +18,8 @@ with open('captions.txt', 'w') as captions_file:
 
         print(image__filename, file=captions_file)
 
-        for i in range(len(captioners)):
-            caption = captioners[i](image_file_path)[0]['generated_text']
-            print(f'\t{models[i]}: {caption}', file=captions_file)
+        for model, captioner in zip(models, captioners):
+            caption = captioner(image_file_path)[0]['generated_text']
+            print(f'\t{model}: {caption}', file=captions_file)
 
         print('\n', file=captions_file)
-
-
-
