@@ -31,11 +31,11 @@ with open('captioned_images.md', 'w') as captions_file:
             caption = captioner(image_file_path)[0]['generated_text']
             captions += f'{model}: {caption}\n\n'
 
-        captioned_image_file_path = write_caption_to_exif(image_file_path, output_dir, 'This is my file description') 
+        captioned_image_file_path = write_caption_to_exif(image_file_path, output_dir, captions) 
         print(f'![]({captioned_image_file_path})\n\n{captions}\n', file=captions_file)
 
 
 
         finish = time.perf_counter()
         print(f'Image captioning took {finish-start:0.4f} seconds.')
-
+        break
