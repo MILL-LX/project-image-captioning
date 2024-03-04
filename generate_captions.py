@@ -38,4 +38,3 @@ with open('captioned_images.md', 'w') as captions_file:
 
         finish = time.perf_counter()
         print(f'Image captioning took {finish-start:0.4f} seconds.')
-        break
