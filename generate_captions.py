@@ -1,3 +1,4 @@
+import argparse
 import os
 import shutil
 
@@ -52,7 +53,15 @@ def clear_output(output_dir, captions_file):
         print(f"Error: {e}")
 
 @timer
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Image captioning script with optional output clearing.')
+    parser.add_argument('--clear-output', action='store_true', help='Clear the output directory and delete the captions file.')
+    return parser.parse_args()
+
+@timer
 def main():
+    args = parse_arguments()
+
     image_dir = 'data/input'
     output_dir = 'data/output'
     captions_file = 'captioned_images.md'
@@ -61,7 +70,8 @@ def main():
               'Salesforce/blip-image-captioning-large', 
               'nlpconnect/vit-gpt2-image-captioning']
 
-    clear_output(output_dir, captions_file)
+    if args.clear_output:
+        clear_output(output_dir, captions_file)
 
     captions_writer = CaptionsFileWriter(captions_file)
     process_images_recursively(image_dir, output_dir, models, captions_writer)

@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "generate_captions.py",
             "console": "integratedTerminal",
-            "args": ""
+            "args": "--clear-output"
         },
         {
             "name": "Python Debugger: Current File with Arguments",
