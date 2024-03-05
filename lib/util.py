@@ -51,7 +51,7 @@ def timer(func):
         return result
     return wrapper
 
-class CaptionsWriter:
+class CaptionsFileWriter:
     def __init__(self, captions_file_path):
         self.captions_file_path = captions_file_path
 

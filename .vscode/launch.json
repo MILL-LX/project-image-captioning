@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "generate_captions.py",
             "console": "integratedTerminal",
-            "args": "${command:pickArgs}"
+            "args": ""
         },
         {
             "name": "Python Debugger: Current File with Arguments",
