@@ -1,8 +1,12 @@
 import os
+import shutil
+
 from PIL import Image
 from PIL.ExifTags import TAGS
 from transformers import pipeline
+
 from lib.util import write_caption_to_exif, timer, CaptionsFileWriter
+
 
 @timer
 def load_models(models):
@@ -27,7 +31,7 @@ def process_image(models, captioners, image_file_path, output_dir, captions_file
     captions_file_writer.write_captions(captioned_image_file_path, captions)
 
 @timer
-def process_images_recursive(image_dir, output_dir, models, captions_writer):
+def process_images_recursively(image_dir, output_dir, models, captions_writer):
     captioners = load_models(models)
 
     for root, dirs, files in os.walk(image_dir):
@@ -36,15 +40,31 @@ def process_images_recursive(image_dir, output_dir, models, captions_writer):
             process_image(models, captioners, image_file_path, output_dir, captions_writer)
 
 @timer
+def clear_output(output_dir, captions_file):
+    try:
+        shutil.rmtree(output_dir)
+        os.makedirs(output_dir)
+
+        os.remove(captions_file)
+
+        print(f"Output directory '{output_dir}' cleared successfully, and '{captions_file}' deleted.")
+    except Exception as e:
+        print(f"Error: {e}")
+
+@timer
 def main():
     image_dir = 'data/input'
     output_dir = 'data/output'
+    captions_file = 'captioned_images.md'
+
     models = ['Salesforce/blip-image-captioning-base', 
               'Salesforce/blip-image-captioning-large', 
               'nlpconnect/vit-gpt2-image-captioning']
 
-    captions_writer = CaptionsFileWriter('captioned_images.md')
-    process_images_recursive(image_dir, output_dir, models, captions_writer)
+    clear_output(output_dir, captions_file)
+
+    captions_writer = CaptionsFileWriter(captions_file)
+    process_images_recursively(image_dir, output_dir, models, captions_writer)
 
 if __name__ == "__main__":
     main()
