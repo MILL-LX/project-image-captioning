@@ -16,7 +16,7 @@ models = ['Salesforce/blip-image-captioning-base',
           'nlpconnect/vit-gpt2-image-captioning']
 
 start = time.perf_counter()
-captioners = [pipeline('image-to-text', model=model, max_new_tokens=128) for model in models]
+captioners = [pipeline('image-to-text', model=model, max_new_tokens=64) for model in models]
 finish = time.perf_counter()
 print(f'Model loading took {finish-start:0.4f} seconds.')
 
