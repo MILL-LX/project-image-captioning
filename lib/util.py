@@ -57,4 +57,4 @@ class CaptionsFileWriter:
 
     def write_captions(self, captioned_image_path, captions):
         with open(self.captions_file_path, 'a') as captions_file:
-            print(f'![]({captioned_image_path})\n\n{captions}\n', file=captions_file)
+            print(f'![{captioned_image_path}]({captioned_image_path})\n\n{captions}\n', file=captions_file)
