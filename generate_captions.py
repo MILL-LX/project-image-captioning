@@ -11,7 +11,8 @@ from lib.util import write_caption_to_exif, timer, CaptionsFileWriter
 
 @timer
 def load_models(models):
-    return [pipeline('image-to-text', model=model, max_new_tokens=64) for model in models]
+    return [pipeline('image-to-text', model=model, max_new_tokens=64, device="cpu") for model in models]
+    # return [pipeline('image-to-text', model=model, max_new_tokens=64, device="cuda") for model in models]
 
 @timer
 def make_captions_for_image(models, captioners, image_file_path):
@@ -46,7 +47,8 @@ def clear_output(output_dir, captions_file):
         shutil.rmtree(output_dir)
         os.makedirs(output_dir)
 
-        os.remove(captions_file)
+        if os.path.exists(captions_file):
+            os.remove(captions_file)
 
         print(f"Output directory '{output_dir}' cleared successfully, and '{captions_file}' deleted.")
     except Exception as e:
