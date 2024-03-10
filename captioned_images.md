@@ -1,3 +1,13 @@
+![data/output/IMG_1523-CAPTIONED.heic](data/output/IMG_1523-CAPTIONED.heic)
+
+Salesforce/blip-image-captioning-base: a person is holding a micro micro micro micro micro micro micro micro micro micro micro micro micro micro micro micro
+
+Salesforce/blip-image-captioning-large: someone is holding a tiny microconver on a piece of paper
+
+nlpconnect/vit-gpt2-image-captioning: a person is holding a piece of paper with a computer mouse 
+
+
+
 ![data/output/fotomaton7-CAPTIONED.jpg](data/output/fotomaton7-CAPTIONED.jpg)
 
 Salesforce/blip-image-captioning-base: a mirror with a man in it

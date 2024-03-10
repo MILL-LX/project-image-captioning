@@ -8,6 +8,9 @@ from transformers import pipeline
 
 from lib.util import write_caption_to_exif, timer, CaptionsFileWriter
 
+from pillow_heif import register_heif_opener
+register_heif_opener()
+
 
 @timer
 def load_models(models):
