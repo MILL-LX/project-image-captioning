@@ -16,7 +16,7 @@ Salesforce/blip-image-captioning-large: there is a mirror with a picture of a ma
 nlpconnect/vit-gpt2-image-captioning: a man is standing in front of a white wall 
 
 
-![data/output/IMG_20180824_195525_035-CAPTIONED.jpg](data/output/IMG_20180824_195525_035-CAPTIONED.jpg)
+![data/output/event3/IMG_20180824_195525_035-CAPTIONED.jpg](data/output/event3/IMG_20180824_195525_035-CAPTIONED.jpg)
 
 Salesforce/blip-image-captioning-base: a 3d printer machine with a white plastic bowl
 
@@ -25,7 +25,7 @@ Salesforce/blip-image-captioning-large: there is a white object that is being ma
 nlpconnect/vit-gpt2-image-captioning: a bath tub with a white tub and a white towel 
 
 
-![data/output/IMG_20170411_000944-CAPTIONED.jpg](data/output/IMG_20170411_000944-CAPTIONED.jpg)
+![data/output/event3/IMG_20170411_000944-CAPTIONED.jpg](data/output/event3/IMG_20170411_000944-CAPTIONED.jpg)
 
 Salesforce/blip-image-captioning-base: a bunch of colorful objects hanging from a ceiling
 
@@ -34,7 +34,7 @@ Salesforce/blip-image-captioning-large: there are many different toys hanging fr
 nlpconnect/vit-gpt2-image-captioning: a number of colorful objects in a room 
 
 
-![data/output/IMG_20181027_171515-CAPTIONED.jpg](data/output/IMG_20181027_171515-CAPTIONED.jpg)
+![data/output/event3/IMG_20181027_171515-CAPTIONED.jpg](data/output/event3/IMG_20181027_171515-CAPTIONED.jpg)
 
 Salesforce/blip-image-captioning-base: a man and woman working on a computer
 
@@ -43,7 +43,7 @@ Salesforce/blip-image-captioning-large: people sitting at a table working on ele
 nlpconnect/vit-gpt2-image-captioning: a man sitting at a table with a laptop computer 
 
 
-![data/output/IMG_20170830_221729-CAPTIONED.jpg](data/output/IMG_20170830_221729-CAPTIONED.jpg)
+![data/output/event3/IMG_20170830_221729-CAPTIONED.jpg](data/output/event3/IMG_20170830_221729-CAPTIONED.jpg)
 
 Salesforce/blip-image-captioning-base: a girl is playing with a large yellow machine
 
@@ -52,7 +52,7 @@ Salesforce/blip-image-captioning-large: there is a little girl that is playing w
 nlpconnect/vit-gpt2-image-captioning: a girl is playing with a toy on a wall 
 
 
-![data/output/IMG_20161112_101839-CAPTIONED.jpg](data/output/IMG_20161112_101839-CAPTIONED.jpg)
+![data/output/event3/IMG_20161112_101839-CAPTIONED.jpg](data/output/event3/IMG_20161112_101839-CAPTIONED.jpg)
 
 Salesforce/blip-image-captioning-base: a white skull head
 
@@ -61,7 +61,7 @@ Salesforce/blip-image-captioning-large: there is a white head on a glass shelf w
 nlpconnect/vit-gpt2-image-captioning: a statue of a man with a toothbrush in his mouth 
 
 
-![data/output/DSC07484-CAPTIONED.JPG](data/output/DSC07484-CAPTIONED.JPG)
+![data/output/event2/DSC07484-CAPTIONED.JPG](data/output/event2/DSC07484-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a man sitting at a desk with a robot on it
 
@@ -70,7 +70,7 @@ Salesforce/blip-image-captioning-large: there are two men standing next to a rob
 nlpconnect/vit-gpt2-image-captioning: a man is holding a camera and a microphone 
 
 
-![data/output/DSC06420-CAPTIONED.JPG](data/output/DSC06420-CAPTIONED.JPG)
+![data/output/event2/DSC06420-CAPTIONED.JPG](data/output/event2/DSC06420-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a man standing on a floor
 
@@ -79,7 +79,7 @@ Salesforce/blip-image-captioning-large: there is a man standing on a large mat w
 nlpconnect/vit-gpt2-image-captioning: a green and white object is on a table 
 
 
-![data/output/DSC06358-CAPTIONED.JPG](data/output/DSC06358-CAPTIONED.JPG)
+![data/output/event2/DSC06358-CAPTIONED.JPG](data/output/event2/DSC06358-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a man in a dark room with a green light
 
@@ -88,7 +88,7 @@ Salesforce/blip-image-captioning-large: someone is using a green light to light 
 nlpconnect/vit-gpt2-image-captioning: a person with a flashlight on a table 
 
 
-![data/output/DSC05969-CAPTIONED.JPG](data/output/DSC05969-CAPTIONED.JPG)
+![data/output/event2/DSC05969-CAPTIONED.JPG](data/output/event2/DSC05969-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a man and a woman working on a table
 
@@ -97,7 +97,7 @@ Salesforce/blip-image-captioning-large: there are two men working on a project w
 nlpconnect/vit-gpt2-image-captioning: a man is cutting a chocolate cake with a pair of scissors 
 
 
-![data/output/DSC09509-CAPTIONED.JPG](data/output/DSC09509-CAPTIONED.JPG)
+![data/output/event2/event2a/DSC09509-CAPTIONED.JPG](data/output/event2/event2a/DSC09509-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a person standing in front of a projection screen
 
@@ -106,7 +106,7 @@ Salesforce/blip-image-captioning-large: someone is standing in front of a large 
 nlpconnect/vit-gpt2-image-captioning: a person standing in front of a large mural 
 
 
-![data/output/DSC09778-CAPTIONED.JPG](data/output/DSC09778-CAPTIONED.JPG)
+![data/output/event2/event2a/event2aa/DSC09778-CAPTIONED.JPG](data/output/event2/event2a/event2aa/DSC09778-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a blue flower with many lights on it
 
@@ -115,7 +115,7 @@ Salesforce/blip-image-captioning-large: there is a close up of a flower with blu
 nlpconnect/vit-gpt2-image-captioning: a blue and white light shines through a blue sky 
 
 
-![data/output/DSC02935-CAPTIONED.JPG](data/output/DSC02935-CAPTIONED.JPG)
+![data/output/event1/DSC02935-CAPTIONED.JPG](data/output/event1/DSC02935-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a white wall with a drawing of a bird
 
@@ -124,7 +124,7 @@ Salesforce/blip-image-captioning-large: there is a picture of a large white flow
 nlpconnect/vit-gpt2-image-captioning: a wall with a clock on it and a painting on it 
 
 
-![data/output/DSC01280-CAPTIONED.JPG](data/output/DSC01280-CAPTIONED.JPG)
+![data/output/event1/DSC01280-CAPTIONED.JPG](data/output/event1/DSC01280-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a man holding a red object on a table
 
@@ -133,7 +133,7 @@ Salesforce/blip-image-captioning-large: someone is holding a red object in their
 nlpconnect/vit-gpt2-image-captioning: a man holding a laptop computer with a picture of a person holding a knife 
 
 
-![data/output/DSC00212-CAPTIONED.JPG](data/output/DSC00212-CAPTIONED.JPG)
+![data/output/event1/DSC00212-CAPTIONED.JPG](data/output/event1/DSC00212-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a woman in a red sweater
 
@@ -142,7 +142,7 @@ Salesforce/blip-image-captioning-large: woman in red sweater looking at a book o
 nlpconnect/vit-gpt2-image-captioning: a woman is cutting a cake on a table 
 
 
-![data/output/DSC01570-CAPTIONED.JPG](data/output/DSC01570-CAPTIONED.JPG)
+![data/output/event1/DSC01570-CAPTIONED.JPG](data/output/event1/DSC01570-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a man working on a computer
 
@@ -151,7 +151,7 @@ Salesforce/blip-image-captioning-large: they are looking at a computer that is b
 nlpconnect/vit-gpt2-image-captioning: a man is looking at a small blue box 
 
 
-![data/output/5391-CAPTIONED.jpg](data/output/5391-CAPTIONED.jpg)
+![data/output/event1/5391-CAPTIONED.jpg](data/output/event1/5391-CAPTIONED.jpg)
 
 Salesforce/blip-image-captioning-base: a group of people sitting around a table
 
@@ -160,7 +160,7 @@ Salesforce/blip-image-captioning-large: there are many people sitting at a table
 nlpconnect/vit-gpt2-image-captioning: people sitting around a table with food 
 
 
-![data/output/DSC03274-CAPTIONED.JPG](data/output/DSC03274-CAPTIONED.JPG)
+![data/output/event1/event1a/DSC03274-CAPTIONED.JPG](data/output/event1/event1a/DSC03274-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a man is working on a wall mounted light switch
 
@@ -169,7 +169,7 @@ Salesforce/blip-image-captioning-large: there is a man that is looking at a wall
 nlpconnect/vit-gpt2-image-captioning: a man is looking at a mirror with a pair of scissors 
 
 
-![data/output/DSC05339-CAPTIONED.JPG](data/output/DSC05339-CAPTIONED.JPG)
+![data/output/event1/event1a/DSC05339-CAPTIONED.JPG](data/output/event1/event1a/DSC05339-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a man sitting at a desk
 
@@ -178,7 +178,7 @@ Salesforce/blip-image-captioning-large: there is a man sitting at a table with a
 nlpconnect/vit-gpt2-image-captioning: a man sitting at a table with a laptop 
 
 
-![data/output/DSC04610-CAPTIONED.JPG](data/output/DSC04610-CAPTIONED.JPG)
+![data/output/event1/event1a/DSC04610-CAPTIONED.JPG](data/output/event1/event1a/DSC04610-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a person touching a metal object on a table
 
@@ -187,7 +187,7 @@ Salesforce/blip-image-captioning-large: there are five cups with a hand reaching
 nlpconnect/vit-gpt2-image-captioning: a table with a bunch of different types of appliances 
 
 
-![data/output/DSC05535-CAPTIONED.JPG](data/output/DSC05535-CAPTIONED.JPG)
+![data/output/event1/event1a/DSC05535-CAPTIONED.JPG](data/output/event1/event1a/DSC05535-CAPTIONED.JPG)
 
 Salesforce/blip-image-captioning-base: a man looking through a microscope
 

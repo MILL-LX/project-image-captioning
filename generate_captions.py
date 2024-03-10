@@ -28,19 +28,19 @@ def make_captions_for_image(models, captioners, image_file_path):
     return captions
 
 @timer
-def process_image(models, captioners, image_file_path, output_dir, captions_file_writer):
+def process_image(models, captioners, image_file_path, input_dir, output_dir, captions_file_writer):
     captions = make_captions_for_image(models, captioners, image_file_path)
-    captioned_image_file_path = write_caption_to_exif(image_file_path, output_dir, captions) 
+    captioned_image_file_path = write_caption_to_exif(image_file_path, input_dir, output_dir, captions) 
     captions_file_writer.write_captions(captioned_image_file_path, captions)
 
 @timer
-def process_images_recursively(image_dir, output_dir, models, captions_writer):
+def process_images_recursively(input_dir, output_dir, models, captions_writer):
     captioners = load_models(models)
 
-    for root, dirs, files in os.walk(image_dir):
+    for root, dirs, files in os.walk(input_dir):
         for file in files:
             image_file_path = os.path.join(root, file)
-            process_image(models, captioners, image_file_path, output_dir, captions_writer)
+            process_image(models, captioners, image_file_path, input_dir, output_dir, captions_writer)
 
 @timer
 def clear_output(output_dir, captions_file):
@@ -65,7 +65,7 @@ def parse_arguments():
 def main():
     args = parse_arguments()
 
-    image_dir = 'data/input'
+    input_dir = 'data/input'
     output_dir = 'data/output'
     captions_file = 'captioned_images.md'
 
@@ -77,7 +77,7 @@ def main():
         clear_output(output_dir, captions_file)
 
     captions_writer = CaptionsFileWriter(captions_file)
-    process_images_recursively(image_dir, output_dir, models, captions_writer)
+    process_images_recursively(input_dir, output_dir, models, captions_writer)
 
 if __name__ == "__main__":
     main()

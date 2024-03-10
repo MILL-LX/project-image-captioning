@@ -1,4 +1,5 @@
 import json
+import os
 import os.path
 from pathlib import Path
 import time
@@ -19,12 +20,26 @@ def outfile_name_from_infile_path(infile_path, tag_string):
     output_filename = filename + f'-{tag_string}' + extension
     return output_filename
 
+def subpath_in_dir(dir, path):
+    directory = os.path.normpath(dir)
+    path = os.path.normpath(path)
 
-def write_caption_to_exif(input_image_path, output_dir, caption):
+    if path.startswith(directory):
+        return path[len(directory) + 1:]
+    else:
+        return path
+
+def write_caption_to_exif(input_image_path, input_dir, output_dir, caption):
     try:
-        # Generate the output file path
+        infile_subpath = subpath_in_dir(input_dir, input_image_path)
+        infile_subdir = os.path.dirname(infile_subpath)
+        
+        full_output_dir = os.path.join(output_dir, infile_subdir)
+        if not os.path.exists(full_output_dir):
+            os.makedirs(full_output_dir)
+
         outfile_name = outfile_name_from_infile_path(input_image_path, 'CAPTIONED')
-        outfile_path = f'{output_dir}/{outfile_name}'
+        full_output_path = os.path.join(full_output_dir, outfile_name)
 
         # Grab the existing EXIF data, if any
         image = Image.open(input_image_path)
@@ -42,11 +57,11 @@ def write_caption_to_exif(input_image_path, output_dir, caption):
 
         # write the output file with the new exif data
         exif_dat = piexif.dump(exif_data)
-        image.save(outfile_path,  exif=exif_dat)
+        image.save(full_output_path,  exif=exif_dat)
 
-        print(f'wrote {outfile_path}')
+        print(f'wrote {full_output_path}')
 
-        return outfile_path
+        return full_output_path
 
     except Exception as e:
         print(f'An error occurred writing caption to EXIF data: {e}')
