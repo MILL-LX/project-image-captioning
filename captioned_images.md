@@ -1,4 +1,4 @@
-![data/output/IMG_1523-CAPTIONED.heic](data/output/IMG_1523-CAPTIONED.heic)
+![data/output/IMG_1523-CAPTIONED.heic.jpg](data/output/IMG_1523-CAPTIONED.heic.jpg)
 
 Salesforce/blip-image-captioning-base: a person is holding a micro micro micro micro micro micro micro micro micro micro micro micro micro micro micro micro
 

@@ -10,6 +10,11 @@ from PIL import Image
 def outfile_name_from_infile_path(infile_path, tag_string):
     infilename = os.path.basename(infile_path)
     filename, extension = os.path.splitext(infilename)
+
+    # we write heic files as jpg since we expect to display them in a web page
+    if extension == '.heic':
+         extension += '.jpg' 
+
     output_filename = filename + f'-{tag_string}' + extension
     return output_filename
 
