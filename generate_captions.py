@@ -12,17 +12,15 @@ from lib.util import write_caption_to_exif, timer, CaptionsFileWriter
 @timer
 def load_models(models):
     return [pipeline('image-to-text', model=model, max_new_tokens=64, device="cpu") for model in models]
-    # return [pipeline('image-to-text', model=model, max_new_tokens=64, device="cuda") for model in models]
 
 @timer
 def make_captions_for_image(models, captioners, image_file_path):
-    image_filename = os.path.basename(image_file_path)
-
     captions = ''
 
-    for model, captioner in zip(models, captioners):
-        caption = captioner(image_file_path)[0]['generated_text']
-        captions += f'{model}: {caption}\n\n'
+    with Image.open(image_file_path) as image_to_caption:
+        for model, captioner in zip(models, captioners):
+            caption = captioner(image_to_caption)[0]['generated_text']
+            captions += f'{model}: {caption}\n\n'
 
     return captions
 
