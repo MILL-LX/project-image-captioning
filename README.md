@@ -2,6 +2,16 @@
 
 Some experiments with automated captioning of project images
 
+## Dependencies
+
+### MacOS
+
+`brew install libheif`
+
+### Linux 
+
+`sudo apt install heif-gdk-pixbuf libheif1`
+
 ## Machine Setup
 
 ```bash
