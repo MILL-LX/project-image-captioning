@@ -18,12 +18,12 @@ def load_models(models):
 
 @timer
 def make_captions_for_image(models, captioners, image_file_path):
-    captions = ''
+    captions = {}
 
     with Image.open(image_file_path) as image_to_caption:
         for model, captioner in zip(models, captioners):
             caption = captioner(image_to_caption)[0]['generated_text']
-            captions += f'{model}: {caption}\n\n'
+            captions[model] = caption
 
     return captions
 

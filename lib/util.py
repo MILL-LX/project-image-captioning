@@ -1,3 +1,4 @@
+import json
 import os.path
 from pathlib import Path
 import time
@@ -32,8 +33,11 @@ def write_caption_to_exif(input_image_path, output_dir, caption):
         else:
             exif_data = {'0th': {}, 'Exif': {}, '1st': {},'thumbnail': None, 'GPS': {}}
 
+        # format teh captions as json
+        json_caption = json.dumps(caption)
+
         # Add the user comment
-        exif_data['Exif'][piexif.ExifIFD.UserComment] = piexif.helper.UserComment.dump(caption)
+        exif_data['Exif'][piexif.ExifIFD.UserComment] = piexif.helper.UserComment.dump(json_caption)
 
 
         # write the output file with the new exif data
@@ -60,6 +64,13 @@ class CaptionsFileWriter:
     def __init__(self, captions_file_path):
         self.captions_file_path = captions_file_path
 
+    def format_captions(self, captions):
+        formatted_captions = ''
+        for model, caption in captions.items():
+            formatted_captions += f'{model}: {caption}\n\n'
+
+        return formatted_captions
+
     def write_captions(self, captioned_image_path, captions):
         with open(self.captions_file_path, 'a') as captions_file:
-            print(f'![{captioned_image_path}]({captioned_image_path})\n\n{captions}\n', file=captions_file)
+            print(f'![{captioned_image_path}]({captioned_image_path})\n\n{self.format_captions(captions)}', file=captions_file)
