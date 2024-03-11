@@ -54,6 +54,10 @@ def write_caption_to_exif(input_image_path, input_dir, output_dir, caption):
         # Add the user comment
         exif_data['Exif'][piexif.ExifIFD.UserComment] = piexif.helper.UserComment.dump(json_caption)
 
+        # Works around an issue in Samsung EXIF data
+        cc = exif_data['Exif'].get(37121)
+        if isinstance(cc, tuple):
+            exif_data['Exif'][37121] = ",".join([str(v) for v in cc]).encode("ASCII")
 
         # write the output file with the new exif data
         exif_dat = piexif.dump(exif_data)
