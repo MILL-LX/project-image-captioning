@@ -1,198 +1,189 @@
-![data/output/IMG_1523-CAPTIONED.heic.jpg](data/output/IMG_1523-CAPTIONED.heic.jpg)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140316_201500-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140316_201500-CAPTIONED.jpg>)
 
-Salesforce/blip-image-captioning-base: a person is holding a micro micro micro micro micro micro micro micro micro micro micro micro micro micro micro micro
+Salesforce/blip-image-captioning-base: a machine that is sitting on a table
 
-Salesforce/blip-image-captioning-large: someone is holding a tiny microconver on a piece of paper
+Salesforce/blip-image-captioning-large: there is a machine that is sitting on a table
 
-nlpconnect/vit-gpt2-image-captioning: a person is holding a piece of paper with a computer mouse 
+nlpconnect/vit-gpt2-image-captioning: a black and silver object sitting on top of a table 
 
 
-![data/output/fotomaton7-CAPTIONED.jpg](data/output/fotomaton7-CAPTIONED.jpg)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5452-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5452-CAPTIONED.jpg>)
 
-Salesforce/blip-image-captioning-base: a mirror with a man in it
+Salesforce/blip-image-captioning-base: a man sitting at a desk with a computer
 
-Salesforce/blip-image-captioning-large: there is a mirror with a picture of a man in it
+Salesforce/blip-image-captioning-large: there are two men sitting at a table with a printer on it
 
-nlpconnect/vit-gpt2-image-captioning: a man is standing in front of a white wall 
+nlpconnect/vit-gpt2-image-captioning: a man is working on a computer at a convention 
 
 
-![data/output/event3/IMG_20180824_195525_035-CAPTIONED.jpg](data/output/event3/IMG_20180824_195525_035-CAPTIONED.jpg)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5429-edited-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5429-edited-CAPTIONED.jpg>)
 
-Salesforce/blip-image-captioning-base: a 3d printer machine with a white plastic bowl
+Salesforce/blip-image-captioning-base: a group of people working on a project
 
-Salesforce/blip-image-captioning-large: there is a white object that is being made in a machine
+Salesforce/blip-image-captioning-large: several people are standing around a table with many electronics on it
 
-nlpconnect/vit-gpt2-image-captioning: a bath tub with a white tub and a white towel 
+nlpconnect/vit-gpt2-image-captioning: a man is working on a projector screen 
 
 
-![data/output/event3/IMG_20170411_000944-CAPTIONED.jpg](data/output/event3/IMG_20170411_000944-CAPTIONED.jpg)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140202_160747-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140202_160747-CAPTIONED.jpg>)
 
-Salesforce/blip-image-captioning-base: a bunch of colorful objects hanging from a ceiling
+Salesforce/blip-image-captioning-base: a man is standing in front of a 3d printer
 
-Salesforce/blip-image-captioning-large: there are many different toys hanging from the ceiling in this room
+Salesforce/blip-image-captioning-large: there is a man standing next to a 3d printer on a table
 
-nlpconnect/vit-gpt2-image-captioning: a number of colorful objects in a room 
+nlpconnect/vit-gpt2-image-captioning: a machine that is sitting on a table 
 
 
-![data/output/event3/IMG_20181027_171515-CAPTIONED.jpg](data/output/event3/IMG_20181027_171515-CAPTIONED.jpg)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5445-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5445-CAPTIONED.jpg>)
 
-Salesforce/blip-image-captioning-base: a man and woman working on a computer
+Salesforce/blip-image-captioning-base: a group of people working on a project
 
-Salesforce/blip-image-captioning-large: people sitting at a table working on electronic equipment in a room
+Salesforce/blip-image-captioning-large: several people are working on a project in a lab
 
-nlpconnect/vit-gpt2-image-captioning: a man sitting at a table with a laptop computer 
+nlpconnect/vit-gpt2-image-captioning: a room full of people working on computers 
 
 
-![data/output/event3/IMG_20170830_221729-CAPTIONED.jpg](data/output/event3/IMG_20170830_221729-CAPTIONED.jpg)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140316_151906-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140316_151906-CAPTIONED.jpg>)
 
-Salesforce/blip-image-captioning-base: a girl is playing with a large yellow machine
+Salesforce/blip-image-captioning-base: a table with a laptop, a laptop, a laptop, and a laptop computer
 
-Salesforce/blip-image-captioning-large: there is a little girl that is playing with a light
+Salesforce/blip-image-captioning-large: there are many laptops and other electronics on a table
 
-nlpconnect/vit-gpt2-image-captioning: a girl is playing with a toy on a wall 
+nlpconnect/vit-gpt2-image-captioning: a table with a bunch of computers on it 
 
 
-![data/output/event3/IMG_20161112_101839-CAPTIONED.jpg](data/output/event3/IMG_20161112_101839-CAPTIONED.jpg)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140202_160735-edited-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140202_160735-edited-CAPTIONED.jpg>)
 
-Salesforce/blip-image-captioning-base: a white skull head
+Salesforce/blip-image-captioning-base: a man working on a 3d printer
 
-Salesforce/blip-image-captioning-large: there is a white head on a glass shelf with a camera
+Salesforce/blip-image-captioning-large: there are two men working on a machine that is sitting on a table
 
-nlpconnect/vit-gpt2-image-captioning: a statue of a man with a toothbrush in his mouth 
+nlpconnect/vit-gpt2-image-captioning: a person is working on a computer at a factory 
 
 
-![data/output/event2/DSC07484-CAPTIONED.JPG](data/output/event2/DSC07484-CAPTIONED.JPG)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5406-edited-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5406-edited-CAPTIONED.jpg>)
 
-Salesforce/blip-image-captioning-base: a man sitting at a desk with a robot on it
+Salesforce/blip-image-captioning-base: students working on a 3d printer
 
-Salesforce/blip-image-captioning-large: there are two men standing next to a robot on a table
+Salesforce/blip-image-captioning-large: there are people sitting at a table working on a project
 
-nlpconnect/vit-gpt2-image-captioning: a man is holding a camera and a microphone 
+nlpconnect/vit-gpt2-image-captioning: a person is looking at a camera while holding a camera 
 
 
-![data/output/event2/DSC06420-CAPTIONED.JPG](data/output/event2/DSC06420-CAPTIONED.JPG)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5449-edited-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5449-edited-CAPTIONED.jpg>)
 
-Salesforce/blip-image-captioning-base: a man standing on a floor
+Salesforce/blip-image-captioning-base: a table with many different machines on it
 
-Salesforce/blip-image-captioning-large: there is a man standing on a large mat with a remote
+Salesforce/blip-image-captioning-large: there are many people standing around a table with a robot on it
 
-nlpconnect/vit-gpt2-image-captioning: a green and white object is on a table 
+nlpconnect/vit-gpt2-image-captioning: a table with a bunch of different types of electronics 
 
 
-![data/output/event2/DSC06358-CAPTIONED.JPG](data/output/event2/DSC06358-CAPTIONED.JPG)
-
-Salesforce/blip-image-captioning-base: a man in a dark room with a green light
-
-Salesforce/blip-image-captioning-large: someone is using a green light to light up a bike
-
-nlpconnect/vit-gpt2-image-captioning: a person with a flashlight on a table 
-
-
-![data/output/event2/DSC05969-CAPTIONED.JPG](data/output/event2/DSC05969-CAPTIONED.JPG)
-
-Salesforce/blip-image-captioning-base: a man and a woman working on a table
-
-Salesforce/blip-image-captioning-large: there are two men working on a project with many wires
-
-nlpconnect/vit-gpt2-image-captioning: a man is cutting a chocolate cake with a pair of scissors 
-
-
-![data/output/event2/event2a/DSC09509-CAPTIONED.JPG](data/output/event2/event2a/DSC09509-CAPTIONED.JPG)
-
-Salesforce/blip-image-captioning-base: a person standing in front of a projection screen
-
-Salesforce/blip-image-captioning-large: someone is standing in front of a large screen with a lot of bugs on it
-
-nlpconnect/vit-gpt2-image-captioning: a person standing in front of a large mural 
-
-
-![data/output/event2/event2a/event2aa/DSC09778-CAPTIONED.JPG](data/output/event2/event2a/event2aa/DSC09778-CAPTIONED.JPG)
-
-Salesforce/blip-image-captioning-base: a blue flower with many lights on it
-
-Salesforce/blip-image-captioning-large: there is a close up of a flower with blue lights
-
-nlpconnect/vit-gpt2-image-captioning: a blue and white light shines through a blue sky 
-
-
-![data/output/event1/DSC02935-CAPTIONED.JPG](data/output/event1/DSC02935-CAPTIONED.JPG)
-
-Salesforce/blip-image-captioning-base: a white wall with a drawing of a bird
-
-Salesforce/blip-image-captioning-large: there is a picture of a large white flower on a wall
-
-nlpconnect/vit-gpt2-image-captioning: a wall with a clock on it and a painting on it 
-
-
-![data/output/event1/DSC01280-CAPTIONED.JPG](data/output/event1/DSC01280-CAPTIONED.JPG)
-
-Salesforce/blip-image-captioning-base: a man holding a red object on a table
-
-Salesforce/blip-image-captioning-large: someone is holding a red object in their hands
-
-nlpconnect/vit-gpt2-image-captioning: a man holding a laptop computer with a picture of a person holding a knife 
-
-
-![data/output/event1/DSC00212-CAPTIONED.JPG](data/output/event1/DSC00212-CAPTIONED.JPG)
-
-Salesforce/blip-image-captioning-base: a woman in a red sweater
-
-Salesforce/blip-image-captioning-large: woman in red sweater looking at a book on a table
-
-nlpconnect/vit-gpt2-image-captioning: a woman is cutting a cake on a table 
-
-
-![data/output/event1/DSC01570-CAPTIONED.JPG](data/output/event1/DSC01570-CAPTIONED.JPG)
-
-Salesforce/blip-image-captioning-base: a man working on a computer
-
-Salesforce/blip-image-captioning-large: they are looking at a computer that is being built in a building
-
-nlpconnect/vit-gpt2-image-captioning: a man is looking at a small blue box 
-
-
-![data/output/event1/5391-CAPTIONED.jpg](data/output/event1/5391-CAPTIONED.jpg)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5384-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5384-CAPTIONED.jpg>)
 
 Salesforce/blip-image-captioning-base: a group of people sitting around a table
 
-Salesforce/blip-image-captioning-large: there are many people sitting at a table with electronics on it
+Salesforce/blip-image-captioning-large: several people sitting at a table with laptops and other electronics
 
-nlpconnect/vit-gpt2-image-captioning: people sitting around a table with food 
-
-
-![data/output/event1/event1a/DSC03274-CAPTIONED.JPG](data/output/event1/event1a/DSC03274-CAPTIONED.JPG)
-
-Salesforce/blip-image-captioning-base: a man is working on a wall mounted light switch
-
-Salesforce/blip-image-captioning-large: there is a man that is looking at a wall with a bunch of buttons
-
-nlpconnect/vit-gpt2-image-captioning: a man is looking at a mirror with a pair of scissors 
+nlpconnect/vit-gpt2-image-captioning: people sitting around a table with a projector 
 
 
-![data/output/event1/event1a/DSC05339-CAPTIONED.JPG](data/output/event1/event1a/DSC05339-CAPTIONED.JPG)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140315_163233-edited-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140315_163233-edited-CAPTIONED.jpg>)
 
-Salesforce/blip-image-captioning-base: a man sitting at a desk
+Salesforce/blip-image-captioning-base: a man sitting at a desk with a laptop and a cell
 
-Salesforce/blip-image-captioning-large: there is a man sitting at a table with a laptop computer
+Salesforce/blip-image-captioning-large: there are two men sitting at a table working on electronics
 
-nlpconnect/vit-gpt2-image-captioning: a man sitting at a table with a laptop 
-
-
-![data/output/event1/event1a/DSC04610-CAPTIONED.JPG](data/output/event1/event1a/DSC04610-CAPTIONED.JPG)
-
-Salesforce/blip-image-captioning-base: a person touching a metal object on a table
-
-Salesforce/blip-image-captioning-large: there are five cups with a hand reaching for one
-
-nlpconnect/vit-gpt2-image-captioning: a table with a bunch of different types of appliances 
+nlpconnect/vit-gpt2-image-captioning: a man working on a computer while others watch 
 
 
-![data/output/event1/event1a/DSC05535-CAPTIONED.JPG](data/output/event1/event1a/DSC05535-CAPTIONED.JPG)
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20201003_154435-CAPTIONED.heic.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20201003_154435-CAPTIONED.heic.jpg>)
 
-Salesforce/blip-image-captioning-base: a man looking through a microscope
+Salesforce/blip-image-captioning-base: a group of people sitting at a table with computers
 
-Salesforce/blip-image-captioning-large: man looking through a microscope at a computer screen while standing in front of a desk
+Salesforce/blip-image-captioning-large: people are sitting at tables with laptops and wearing masks
 
-nlpconnect/vit-gpt2-image-captioning: a man is looking at a machine that is being used to make a pizza 
+nlpconnect/vit-gpt2-image-captioning: a room full of people with microphones and cameras 
+
+
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140201_175847-edited-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140201_175847-edited-CAPTIONED.jpg>)
+
+Salesforce/blip-image-captioning-base: a group of people working on electronics
+
+Salesforce/blip-image-captioning-large: several people working on electronics in a lab with a lot of wires
+
+nlpconnect/vit-gpt2-image-captioning: people are working on a project 
+
+
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20201003_154453-CAPTIONED.heic.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20201003_154453-CAPTIONED.heic.jpg>)
+
+Salesforce/blip-image-captioning-base: a man wearing a mask
+
+Salesforce/blip-image-captioning-large: there are people sitting at a table with a machine on it
+
+nlpconnect/vit-gpt2-image-captioning: a man is working on a laptop while another man watches 
+
+
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20211017_145124-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20211017_145124-CAPTIONED.jpg>)
+
+Salesforce/blip-image-captioning-base: a group of people working on computers in a room
+
+Salesforce/blip-image-captioning-large: there are many people sitting at a table with laptops
+
+nlpconnect/vit-gpt2-image-captioning: people sitting around a table with laptops 
+
+
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140201_105003-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140201_105003-CAPTIONED.jpg>)
+
+Salesforce/blip-image-captioning-base: a group of people working on laptops in a room
+
+Salesforce/blip-image-captioning-large: several people are working on electronics in a room with many boxes
+
+nlpconnect/vit-gpt2-image-captioning: three men are working on a project in a kitchen 
+
+
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/IMG_20170909_180703-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/IMG_20170909_180703-CAPTIONED.jpg>)
+
+Salesforce/blip-image-captioning-base: a group of people working on a project
+
+Salesforce/blip-image-captioning-large: several people are working on a model of a building
+
+nlpconnect/vit-gpt2-image-captioning: a table with a bunch of different types of food 
+
+
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/IMG_20170909_180628-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/IMG_20170909_180628-CAPTIONED.jpg>)
+
+Salesforce/blip-image-captioning-base: a group of people sitting around a table
+
+Salesforce/blip-image-captioning-large: several people sitting at a table working on a project
+
+nlpconnect/vit-gpt2-image-captioning: people are sitting around a table 
+
+
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5448-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5448-CAPTIONED.jpg>)
+
+Salesforce/blip-image-captioning-base: a man is working on a robot that is on a table
+
+Salesforce/blip-image-captioning-large: there are many people standing around a table with a small machine
+
+nlpconnect/vit-gpt2-image-captioning: a man is cutting a piece of a large machine 
+
+
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140201_175812-edited-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/20140201_175812-edited-CAPTIONED.jpg>)
+
+Salesforce/blip-image-captioning-base: a group of people working on laptops in a room
+
+Salesforce/blip-image-captioning-large: several men sitting at a table working on electronics with laptops
+
+nlpconnect/vit-gpt2-image-captioning: a large group of people sitting at a table 
+
+
+![data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5445-edited-CAPTIONED.jpg](<data/output/MILL_FOTOS/MAURICIO/BUILD YOUR OWN 3D PRINTER WORKSHOP SESSIONS/5445-edited-CAPTIONED.jpg>)
+
+Salesforce/blip-image-captioning-base: a group of people working on a project
+
+Salesforce/blip-image-captioning-large: several people are working on a project in a lab
+
+nlpconnect/vit-gpt2-image-captioning: a room full of people working on computers 
 
 
